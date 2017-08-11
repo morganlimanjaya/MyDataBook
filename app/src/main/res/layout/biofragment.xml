@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="sg.edu.rp.c347.mydatabook.BioFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewBio"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnFragBio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit" />
+
+</LinearLayout>
